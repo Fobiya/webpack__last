@@ -1,0 +1,63 @@
+/* FONTS style */
+
+ $pm:'Montserrat-Regular';
+ $pb:'Montserrat-Bold';
+ $pt:'Montserrat-Regular';
+
+
+
+//$b:'';
+//$l:'';
+$r: 'Montserrat-Regular';
+$l: 'Montserrat-Regular';
+$m: 'Montserrat-Medium';
+$b: 'Montserrat-Bold';
+$sb:'Montserrat-SemiBold'; 
+
+/* END FONTS style */
+ 
+ 
+//
+//@font-face("betaPTMono-Bold", "../fonts/PTMono-Bold/PTMono-Bold", $file-formats: woff woff2 eot ttf); 
+
+
+@font-face {
+  font-family: $l; 
+  src: 
+    url("../fonts/Montserrat-Regular/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular/Montserrat-Regular.svg") format("svg"),
+    url("../fonts/Montserrat-Regular/Montserrat-Regular.ttf") format("truetype");
+    /* Add other formats as you see fit */
+}
+
+@font-face {
+  font-family: $m; 
+  src: 
+    url("../fonts/Montserrat-Medium/Montserrat-Medium.woff2") format("woff2"),
+    url("../fonts/Montserrat-Medium/Montserrat-Medium.woff") format("woff"),
+    url("../fonts/Montserrat-Medium/Montserrat-Medium.svg") format("svg"),
+    url("../fonts/Montserrat-Medium/Montserrat-Medium.ttf") format("truetype");
+    /* Add other formats as you see fit */
+}
+
+@font-face {
+  font-family: $b; 
+  src: 
+    url("../fonts/Montserrat-Bold/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold/Montserrat-Bold.svg") format("svg"),
+    url("../fonts/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype");
+    /* Add other formats as you see fit */
+}
+
+@font-face {
+  font-family: $sb; 
+  src: 
+    url("../fonts/Montserrat-SemiBold/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-SemiBold/Montserrat-SemiBold.woff") format("woff"),
+    url("../fonts/Montserrat-SemiBold/Montserrat-SemiBold.svg") format("svg"),
+    url("../fonts/Montserrat-SemiBold/Montserrat-SemiBold.ttf") format("truetype");
+    /* Add other formats as you see fit */
+}
+
