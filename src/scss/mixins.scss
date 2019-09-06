@@ -7,12 +7,9 @@
 // =========================================================== 
 // END FONTS style
 // =========================================================== 
-
-
 // =========================================================== 
 // Scroll BAR
 // =========================================================== 
-
 .bar-long {
     height: 4px;
     width: 0;
@@ -20,16 +17,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: #000;
-    //    box-shadow: 0 0 15px rgba(255, 255, 255, 0.66); 
+    background: #000; //    box-shadow: 0 0 15px rgba(255, 255, 255, 0.66); 
 }
 
 // =========================================================== 
 // Scroll BAR
 // =========================================================== 
-
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -47,8 +40,6 @@ html {
         width: 100vw;
     }
 }
-
-
 
 
 *:active,
@@ -197,8 +188,6 @@ textarea:focus {
 // =========================================================== 
 // Visual Display
 // =========================================================== 
-
-
 @media only screen and (min-width: 1200px) {
     .fullpc {
         display: block !important;
@@ -256,8 +245,6 @@ textarea:focus {
 // =========================================================== 
 // END Visual Display
 // =========================================================== 
-
-
 [class*="section__"],
 section,
 footer,
@@ -458,8 +445,7 @@ label.checkbox-on {
 
 label,
 p.label {
-    color: #fff;
-    //    font: 18px $S;
+    color: #fff; //    font: 18px $S;
     margin-bottom: 20px;
     line-height: 1.3em;
     margin-bottom: 30px !important;
@@ -468,8 +454,7 @@ p.label {
     display: inline-block !important;
 
     span {
-        color: #ffc700;
-        //        font-family: $SB;
+        color: #ffc700; //        font-family: $SB;
         display: inline-block;
         position: relative;
         padding: 0 10px;
@@ -481,8 +466,6 @@ p.label {
 // =========================================================== 
 // TEXTAREA
 // =========================================================== 
-
-
 textarea {
 
     width: 100%;
@@ -491,9 +474,7 @@ textarea {
     margin-bottom: 35px;
     background: #FFFFFF;
     border: 1px solid #000000;
-    box-sizing: border-box;
-
-    //       font: 14px $S !important;
+    box-sizing: border-box; //       font: 14px $S !important;
     &::placeholder {
         color: #303030 !important;
         opacity: 1;
@@ -512,13 +493,9 @@ textarea {
 // =========================================================== 
 // END TEXTAREA
 // =========================================================== 
-
-
 // =========================================================== 
 // INPUT
 // =========================================================== 
-
-
 input {
     border: none;
     border: 1px solid rgba(0, 48, 91, .96);
@@ -624,15 +601,9 @@ input[type=checkbox]:checked+label:before {
 // =========================================================== 
 // END INPUT
 // =========================================================== 
-
-
-
-
 // =========================================================== 
 // LABLE
 // =========================================================== 
-
-
 label {
     position: relative;
     display: block
@@ -682,9 +653,6 @@ label.errore:after {
 // =========================================================== 
 // END LABLE
 // =========================================================== 
-
-
-
 .form_input {
     display: block;
     position: relative;
@@ -724,8 +692,6 @@ label.errore:after {
 // =========================================================== 
 // SELECT
 // =========================================================== 
-
-
 select::-ms-expand {
     /* for IE 11 */
     display: none;
@@ -787,17 +753,12 @@ select:focus {
 //	right: 20px;
 //	margin-top: -3px;
 //}
-
-
 // =========================================================== 
 // END SELECT
 // =========================================================== 
-
-
 // =========================================================== 
 // CHECKBOX AND RADIO
 // =========================================================== 
-
 [type=checkbox],
 [type=radio] {
     width: 20px;
@@ -838,10 +799,6 @@ option.error {
 // =========================================================== 
 // END CHECKBOX AND RADIO
 // =========================================================== 
-
-
-
-
 // =========================================================== 
 // END FORMAS 
 // =========================================================== 
@@ -862,14 +819,9 @@ option.error {
     }
 
     max-width: 800px !important;
-    width: 100% !important;
-
-
-    //    font:16px $S;
+    width: 100% !important; //    font:16px $S;
     margin-bottom: 15px;
-    color: #000;
-
-    //    
+    color: #000; //    
     //    .mfp-close{
     //        top:0
     //    }
@@ -929,23 +881,17 @@ option.error {
         @media all and (max-width: 600px) {
             font-size: 14px
         }
-    }
-
-    // display: flex;
+    } // display: flex;
     //    justify-content: center;
     //   flex-direction: row;
     //    align-items: center;
-    
-    article{
+    article {
 
 
         @media all and (max-width: 992px) {
             height: 100%;
             max-height: 100vh;
-        }
-
-
-        //    overflow: hidden;
+        } //    overflow: hidden;
         //    overflow-y: scroll;
         //    background: #fff;
         //    padding: 30px 15px 30px 60px;
@@ -967,10 +913,8 @@ option.error {
 .designe__form {
     background: #fff;
 
-    width: 100%;
-    //    min-width: 100%;
-    height: 100%;
-    //    min-height: 100vh;
+    width: 100%; //    min-width: 100%;
+    height: 100%; //    min-height: 100vh;
     text-align: center;
 
     p {
@@ -1004,9 +948,7 @@ option.error {
             margin: 0px auto 30px auto;
         }
 
-    }
-
-    //    
+    } //    
     //        @media all and (min-width: 993px) {
     //        padding: 120px 0;
     //        }
