@@ -4,7 +4,7 @@ import './js/';
 // NEED import
 
 // NOD MODAL import
-import 'slick-carousel';
+// import 'slick-carousel';
 //import '@fancyapps/fancybox';
 
 // SCSS import
